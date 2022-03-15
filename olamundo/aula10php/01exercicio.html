@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01 - Condicoes HTML</title>
+</head>
+<body>
+    <div>
+        <h2>Ler um numero e qual operacao realizar:</h2>
+        <h3>Dobro, cubo ou raiz quadrada</h3>
+        <form method="GET" action="01exercicio.php">
+            Numero: <input type="number" name="num"/><br/>
+            <fieldset>
+                <legend>Operacao</legend>
+                <input type="radio" name="oper" id="dobro" value="01" checked/><!--checked é para comecar padrao-->
+                <label for="dobro">Dobro</label>
+                <input type="radio" name="oper" id="cubo" value="02"/>
+                <label for="cubo">Cubo</label>
+                <input type="radio" name="oper" id="raiz" value="03"/>
+                <label for="raiz">Raiz Quadrada</label>
+            </fieldset>
+            <input type="submit" value="Calcular"/>
+        </form>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03 - Condicoes HTML</title>
+</head>
+<body>
+    <div>
+        <h2>Crie lista com todos os estados brasileiros usando select</h2>
+        <h3>Quando clicar em Verificar, deve mostrar na tela a regiao do estado selecionado</h3>
+        <h4>1 = norte, 2 = nordeste, 3 = Centro oeste, 4 = sudeste, 5 = sul</h4>
+    </div>
+    <div>
+        <!--Usei numeros no value, mas poderia usar string, abrindo aspas simples-->
+        <form method="GET" action="03exercicio.php">
+            Estado: <select name="estados" id="estados">
+                <option value="1">Acre - AC</option>
+                <option value="2">Alagoas - AL</option>
+                <option value="1">Amapa - AP</option>
+                <option value="1">Amazonas - AM</option>
+                <option value="2">Bahia - BA</option>
+                <option value="2">Ceara - CE</option>
+                <option value="3">Distrito Federal - DF</option>
+                <option value="4">Espirito Santo - ES</option>
+                <option value="3">Goias - GO</option>
+                <option value="2">Maranhao - MA</option>
+                <option value="3">Mato Grosso - MT</option>
+                <option value="3">Mato Grosso do Sul - MS</option>
+                <option value="4">Minas Gerais - MG</option>
+                <option value="1">Para - PA</option>
+                <option value="2">Paraiba - PB</option>
+                <option value="5">Parana - PR</option>
+                <option value="2">Pernambuco - PE</option>
+                <option value="2">Piaui - PI</option>
+                <option value="4">Rio de Janeiro - RJ</option>
+                <option value="2">Rio Grande do Norte - RN</option>
+                <option value="5">Rio Grande do Sul - RS</option>
+                <option value="1">Rondonia - RO</option>
+                <option value="1">Roraima - RR</option>
+                <option value="5">Santa Catarina - SC</option>
+                <option value="4">Sao Paulo - SP</option>
+                <option value="2">Sergipe - SE</option>
+                <option value="1">Tocantins - TO</option>
+            </select>
+            <input type="submit" value="Verificar">
+        </form>  
+    </div>
+    
+</body>
+</html>
